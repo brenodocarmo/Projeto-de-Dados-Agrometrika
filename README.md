@@ -56,18 +56,18 @@ Para a extração e transformação dos dados obtidos pela API da Agrometrika, u
 ## 3º Carregamento dos Dados
 Como esse projeto não possui uma complexidade grande, optamos por utilizar um ambiente dockerizado, em que utilizamos uma instância de um container do banco de dados PostgreSQL, permitindo assim o armazenamento dos dados de forma segura. Além disso, contamos com o aplicativo Docker Desktop para realizar o gerenciamento da instância que foi criada, outro ponto a destacar é a questão do armazenamento, por padrão os containers Docker consome um espaço pequeno comparado a uma máquina virtual (VM).
 
-Na imagem abaixo mostra a instância do PostgreSQL sendo executado através do aplicativo Docker Desktop:
+* Na imagem abaixo mostra a instância do PostgreSQL sendo executado através do aplicativo Docker Desktop:
 ![alt text](docker_desktop.png)
 
-Conforme mencionado anteriormente, foi necessário criar quatro pipelines e, durante a modelagem dessas pipelines, foram criadas as tabelas para armazenar os dados extraídos. Abaixo, segue a imagem do diagrama das tabelas:
+* Conforme mencionado anteriormente, foi necessário criar quatro pipelines e, durante a modelagem dessas pipelines, foram criadas as tabelas para armazenar os dados extraídos. Abaixo, segue a imagem do diagrama das tabelas:
 
 ![alt text](diagrama_bd.png)
 
-Na imagem abaixo mostra a ferramenta pgAdim que pode ser utilizada para gerenciado o banco de dados do projeto:
+* Na imagem abaixo mostra a ferramenta pgAdim que pode ser utilizada para gerenciado o banco de dados do projeto:
 
 ![alt text](pg_admin.png)
 
-E por fim, na imagem abaixo mostra as tabelas do banco de dados sendo referenciado no aplicativo do Power BI.
+* E por fim, na imagem abaixo mostra as tabelas do banco de dados sendo referenciado no aplicativo do Power BI.
 
 ![alt text](power_bi.png)
 
@@ -75,7 +75,7 @@ E por fim, na imagem abaixo mostra as tabelas do banco de dados sendo referencia
 
 ![alt text](workflow_email.png)
 
-Na imagem abaixo mostra o exemplo da mensagem que iremos receber caso tenha algum erro em alguma pipeline do projeto.
+* Na imagem abaixo mostra o exemplo da mensagem que iremos receber caso tenha algum erro em alguma pipeline do projeto.
 
 ![alt text](email_retorno.png)
 
