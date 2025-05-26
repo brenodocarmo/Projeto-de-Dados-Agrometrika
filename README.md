@@ -73,6 +73,8 @@ Como esse projeto não possui uma complexidade grande, optamos por utilizar um a
 
 ## 4º Configuração de envio de mensagem de erro
 
+Para cada workflow desenvolvido no projeto, foi configurada uma notificação de erro com o objetivo de alertar o departamento caso alguma pipeline não seja executada corretamente.
+
 ![alt text](workflow_email.png)
 
 * Na imagem abaixo mostra o exemplo da mensagem que iremos receber caso tenha algum erro em alguma pipeline do projeto.
